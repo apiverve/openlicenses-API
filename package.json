@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/openlicenses",
+  "version": "1.1.5",
+  "description": "Open Source Licenses is a simple tool for getting information on open source licenses. It returns information on various open source licenses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/openlicenses-API.git"
+  },
+  "keywords": [
+    "open source licenses","open source licenses api","open source licenses tool","open source licenses software","open source licenses service"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/openlicenses-API/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/api/openlicenses?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.7.7"
+  }
+}
